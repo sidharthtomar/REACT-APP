@@ -17,7 +17,7 @@ import { logout } from '../../actions/auth'
   );
   const guestLinks = (
     <ul>
-    {/* <li><link to="/profile">Developers</link></li> */}
+    
     <li><Link to ="/register">Register</Link></li>
     <li><Link to ="/login">Login</Link></li>
   </ul>

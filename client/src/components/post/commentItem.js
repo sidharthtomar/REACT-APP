@@ -35,8 +35,6 @@ commentItem.propTypes = {
    
     
 }
-// const mapStateToProps = state =>({
-//     auth:state.authReducer
-// })
+
 
 export default connect(null,{ })(commentItem)

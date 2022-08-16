@@ -7,8 +7,7 @@ import  Login  from './components/auth/login';
 import setAuthToken from './utils/setAuthToken';
 import Post from './components/posts/Post';
 import Posts from './components/post/Post';
-import PrivateRoute from './components/routing/PrivateRoute';
-import { LOGOUT } from './actions/types';
+
 //redux
 import { Provider } from 'react-redux';
 import store from './store';
